@@ -1,15 +1,55 @@
 
+
+
 *{
+    font-family: 'Inter', sans-serif;
     padding: 0;
     margin: 0;
+    list-style-type:none;
     box-sizing: border-box;
 }
 
 #aviso-retratil{
     background-color: #faab43;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
 
 }
 
+#aviso-retratil img{
+    margin-right: 20px;
+}
+
 #aviso-retratil p{
-    color: #fffff;
+    color: white;
+}
+
+header{
+    padding: 0 30px;
+    height: 56px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+}
+
+header nav > div{
+    display: flex;
+    align-items: center;
+}
+
+header nav > div:first-child ul{
+    display: flex;
+
+}
+
+header nav > div:last-child ul{
+    display: none;
+
+}
+
+header nav .header-selec-title{
+    display:flex;
 }
